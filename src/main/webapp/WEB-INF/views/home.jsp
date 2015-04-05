@@ -35,7 +35,7 @@
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1"><b style="color:#c52d2f;">ROJJU</b>는..</h1>
+                                    <h1 class="animation animated-item-1"><b style="color:#c52d2f;">ROJJU!!!</b>는..</h1>
                                     <h2 class="animation animated-item-2">모든 분들과 <b style="font-size:30px;">함께</b><br> 연애관련 정보를 <b style="font-size:30px;">공유</b>하고 <b style="font-size:30px;">고민</b>하는 공간 입니다</h2>
                                 </div>
                             </div>
