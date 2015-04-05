@@ -1,25 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"  pageEncoding="EUC-KR"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-	
-	<!-- core CSS -->
-    <link href="/resources/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/resources/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/resources/css/animate.min.css" rel="stylesheet">
-    <link href="/resources/css/prettyPhoto.css" rel="stylesheet">
-    <link href="/resources/css/main.css" rel="stylesheet">
-    <link href="/resources/css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->       
-</head><!--/head-->
 <body class="homepage">
 <jsp:include page="/resources/inc/common/Header.jsp"/>
     <section id="main-slider" class="no-margin">
@@ -35,7 +16,7 @@
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1"><b style="color:#c52d2f;">ROJJU!!!</b>는..</h1>
+                                    <h1 class="animation animated-item-1"><b style="color:#c52d2f;">ROJJU</b>는..</h1>
                                     <h2 class="animation animated-item-2">모든 분들과 <b style="font-size:30px;">함께</b><br> 연애관련 정보를 <b style="font-size:30px;">공유</b>하고 <b style="font-size:30px;">고민</b>하는 공간 입니다</h2>
                                 </div>
                             </div>
@@ -83,7 +64,7 @@
                             </div>
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="/resources/images/slider/img3.png" class="img-responsive">
+                                    <img src="/resources/images/slider/img3.png" class="img-responsive" width="570px">
                                 </div>
                             </div>
                         </div>
@@ -220,7 +201,7 @@
             <div class="row">
                 <div class="col-sm-6 wow fadeInDown">
                     <div class="skill">
-                        <h2><b style="color:#c52d2f;">ROJJU</b>'s HOT Issue 고민[Hit 100+]</h2>
+                        <h2><b style="color:#c52d2f;">ROJJU</b>'s HOT Issue 고민&nbsp;&nbsp;<img src="/resources/images/main/hot.png" width="65px;"></h2>
                         <p><b style="color:#c52d2f;">[일상]요즘 여자친구가 코를 너무 골아요 | </b>요즘들어 제 여자친구가 무슨무슨 일이 생겼습니다 사랑하는 사람과의 추억을 로주에 남겨 두곤 했는데 많은 기억이 남네요 여러분 들은..</p>
 						<a id="btn-css" href="#">Read More..</a>
 						<center><b><b style="color:#c52d2f;">ROJJU</b> People's 실시간 투표현황</b></center><hr>
@@ -279,7 +260,7 @@
                             <div class="panel-heading active">
                               <h3 class="panel-title">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
-                                  [일상] 요즘 여자친구가 코를 너무 골아요
+                                  [일상] 요즘 여자친구가 코를 너무 골아요 <img src="/resources/images/main/new.jpg">
                                   <i class="fa fa-angle-right pull-right"></i>
                                 </a>
                               </h3>
@@ -305,7 +286,7 @@
                             <div class="panel-heading">
                               <h3 class="panel-title">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
-                                  Lorem ipsum dolor sit amet
+                                  Lorem ipsum dolor sit amet <img src="/resources/images/main/new.jpg">
                                   <i class="fa fa-angle-right pull-right"></i>
                                 </a>
                               </h3>
@@ -321,7 +302,7 @@
                             <div class="panel-heading">
                               <h3 class="panel-title">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">
-                                  Lorem ipsum dolor sit amet
+                                  Lorem ipsum dolor sit amet <img src="/resources/images/main/new.jpg">
                                   <i class="fa fa-angle-right pull-right"></i>
                                 </a>
                               </h3>
@@ -337,7 +318,7 @@
                             <div class="panel-heading">
                               <h3 class="panel-title">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
-                                  Lorem ipsum dolor sit amet
+                                  Lorem ipsum dolor sit amet <img src="/resources/images/main/new.jpg">
                                   <i class="fa fa-angle-right pull-right"></i>
                                 </a>
                               </h3>
@@ -350,13 +331,13 @@
                           </div><div class="panel panel-default">
                             <div class="panel-heading">
                               <h3 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
-                                  Lorem ipsum dolor sit amet
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive1">
+                                  Lorem ipsum dolor sit amet <img src="/resources/images/main/new.jpg">
                                   <i class="fa fa-angle-right pull-right"></i>
                                 </a>
                               </h3>
                             </div>
-                            <div id="collapseFour1" class="panel-collapse collapse">
+                            <div id="collapseFive1" class="panel-collapse collapse">
                               <div class="panel-body">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
                               </div>
@@ -365,13 +346,13 @@
                           <div class="panel panel-default">
                             <div class="panel-heading">
                               <h3 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
-                                  Lorem ipsum dolor sit amet
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseSix1">
+                                  Lorem ipsum dolor sit amet <img src="/resources/images/main/new.jpg">
                                   <i class="fa fa-angle-right pull-right"></i>
                                 </a>
                               </h3>
                             </div>
-                            <div id="collapseFour1" class="panel-collapse collapse">
+                            <div id="collapseSix1" class="panel-collapse collapse">
                               <div class="panel-body">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
                               </div>
@@ -380,13 +361,13 @@
                           <div class="panel panel-default">
                             <div class="panel-heading">
                               <h3 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
-                                  Lorem ipsum dolor sit amet
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseSeven1">
+                                  Lorem ipsum dolor sit amet <img src="/resources/images/main/new.jpg">
                                   <i class="fa fa-angle-right pull-right"></i>
                                 </a>
                               </h3>
                             </div>
-                            <div id="collapseFour1" class="panel-collapse collapse">
+                            <div id="collapseSeven1" class="panel-collapse collapse">
                               <div class="panel-body">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
                               </div>
@@ -395,13 +376,13 @@
                           <div class="panel panel-default">
                             <div class="panel-heading">
                               <h3 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
-                                  Lorem ipsum dolor sit amet
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseEight1">
+                                  Lorem ipsum dolor sit amet <img src="/resources/images/main/new.jpg">
                                   <i class="fa fa-angle-right pull-right"></i>
                                 </a>
                               </h3>
                             </div>
-                            <div id="collapseFour1" class="panel-collapse collapse">
+                            <div id="collapseEight1" class="panel-collapse collapse">
                               <div class="panel-body">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
                               </div>
@@ -410,13 +391,13 @@
                           <div class="panel panel-default">
                             <div class="panel-heading">
                               <h3 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
-                                  Lorem ipsum dolor sit amet
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseNine1">
+                                  Lorem ipsum dolor sit amet <img src="/resources/images/main/new.jpg">
                                   <i class="fa fa-angle-right pull-right"></i>
                                 </a>
                               </h3>
                             </div>
-                            <div id="collapseFour1" class="panel-collapse collapse">
+                            <div id="collapseNine1" class="panel-collapse collapse">
                               <div class="panel-body">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
                               </div>
