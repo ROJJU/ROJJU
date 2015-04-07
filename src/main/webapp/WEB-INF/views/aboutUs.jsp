@@ -1,6 +1,25 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"  pageEncoding="EUC-KR"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+<head>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '806634899416030',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+</head>
 <body>
 <jsp:include page="/resources/inc/common/Header.jsp"/>
     <section id="about-us">
@@ -9,7 +28,12 @@
 				<h2>Project Name <b style="color:#c52d2f;">ROJJU</b></h2>
 				<p class="lead">대한민국 모든 남녀가 서로 사랑하는 그날까지 Project <b style="color:#c52d2f;">ROJJU</b>는 계속 됩니다.</p>
 			</div>
-			
+			<div
+			  class="fb-like"
+			  data-share="true"
+			  data-width="450"
+			  data-show-faces="true">
+			</div>
 			<!-- about us slider -->
 			<div id="about-slider">
 				<div id="carousel-slider" class="carousel slide" data-ride="carousel">
