@@ -43,5 +43,9 @@ public class HomeController {
 		
 		return "aboutUs";
 	}
-	
+	@RequestMapping(value = "/contact.do", method = RequestMethod.GET)
+	public String contact(Model model) {
+		
+		return "contact";
+	}
 }
